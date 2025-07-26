@@ -74,3 +74,16 @@ for num, val in gd_results:
     print(f"64{num}.09c {val:.5E}")
 for num, val in o_results:
     print(f"80{num}.09c {val:.5E}")
+with open("serpent_fuel_atom_density_barn_output.txt", "w") as file:
+    file.write("# Serpent Fuel Atom Densities (units: 1/(barn*cm))\n")
+    file.write("# UO2 Results:\n")
+    for num, val in uo2_results:
+        file.write(f"92{num}.09c  {val:.5E}\n")
+
+    file.write("\n# Gd2O3 Results:\n")
+    for num, val in gd_results:
+        file.write(f"64{num}.09c  {val:.5E}\n")
+
+    file.write("\n# Oxygen Results:\n")
+    for num, val in o_results:
+        file.write(f"8{num}.09c   {val:.5E}\n")
