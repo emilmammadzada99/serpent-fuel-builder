@@ -66,11 +66,14 @@ There are two scripts provided:
 python serpent_fuel_density_calc.py
 ```
 # Example Output Format
-92234.09c 4.29400E-06
-92235.09c 5.62260E-04
-92238.09c 2.05490E-02
-64154.09c 4.61730E-05
-64155.09c 2.97110E-04
+| Nuclide    | Atomic Density   |
+|------------|-----------------|
+| 92234.09c  | 4.29400E-06     |
+| 92235.09c  | 5.62260E-04     |
+| 92238.09c  | 2.05490E-02     |
+| 64154.09c  | 4.61730E-05     |
+| 64155.09c  | 2.97110E-04     |
+
 ## Output Locations
 - Basic model: Printed on console  
 - Density-aware model: Available in output file  
