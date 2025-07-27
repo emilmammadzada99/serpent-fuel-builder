@@ -128,7 +128,7 @@ class MainWindow(QtWidgets.QMainWindow):
             u235_enrichment = 3.0
 
         u234_iso = self.get_isotope(234, 'U')
-        u234_abundance = u234_iso['abundance'] if u234_iso else 0.0055  # doğal bolluk varsayımı
+        u234_abundance = u234_iso['abundance'] if u234_iso else 0.0055  # natural abundance
 
         u235_abundance = u235_enrichment
         u238_abundance = 100 - u235_abundance - u234_abundance
