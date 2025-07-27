@@ -1,5 +1,6 @@
 # Serpent-Fuel-Builder
 A Python tool that reads isotope data from a JSON file and generates Serpent-compatible material definitions for fuel mixtures including uranium, gadolinium, and oxygen isotopes.
+![GuiApp](FuelBuilderGui/FuelBuilder.PNG)
 # Serpent Fuel Atom Density Calculator
 
 This repository contains Python scripts for calculating isotopic atomic densities of nuclear fuel mixtures containing enriched UO₂ and Gd₂O₃ (Gadolinium oxide), based on natural isotopic abundances. The output atomic densities are formatted for use in Serpent reactor physics simulations.
